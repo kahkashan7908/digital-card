@@ -1,0 +1,158 @@
+.card {
+    position: relative;
+    height: 550px;
+    background-color: #ecf0f1;
+    margin: 40px auto;
+}
+.header {
+    position: absolute;
+    height: 250px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: linear-gradient(to right, #604361, #604361);
+}
+
+.header img {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left: 140px;
+    top: 30px;
+}
+.header h3 {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    top: 157px;
+    left: 70px;
+}
+
+.header p {
+    position: absolute;
+    font-family: sans-serif;
+    color: rgb(236, 233, 233);
+    font-size: 20px;
+    top: 182px;
+    left: 125px
+}
+.card-body {
+    position: absolute;
+    height: 400px;
+    left: 5px;
+    right: 5px;
+    top: 55%;
+}
+.card-body ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+.card-body ul li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    height: 100px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+}
+
+.card-body ul li p,
+h3,
+i {
+    position: absolute;
+}
+
+.card-body ul li h3 {
+    top: -17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 58px;
+    color: #065204;
+}
+.card-body ul li h3 a {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(95, 37, 255);
+}
+
+
+.card-body ul li p {
+    top: 26px;
+    left: 59px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color:  #232527;
+}
+
+.card-body ul li i {
+    left: 8px;
+    top: 9px;
+    color: #023f02;
+    font-size: 26px;
+}
+
+.card-body ul li:nth-child(1) {
+    top: -16px;
+}
+
+.card-body ul li:nth-child(2) {
+    top: 26px;
+}
+
+.card-body ul li:nth-child(3) {
+    top: 68px;
+}
+.card-body ul li:nth-child(4) {
+    top: 115px;
+}
+.card-body ul li:nth-child(1) i {
+    left: 12px;
+}
+
+.card-body h3 a:hover {
+    background-color: rgb(248, 204, 204);
+    cursor: pointer;
+}
+.card-footer {
+    position: absolute;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #e2e1e1, #ecf0f1);
+}
+
+.card-footer ul {
+    position: absolute;
+    left: -60px;
+}
+
+.card-footer ul li {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.card-footer ul li i {
+    font-size: 30px;
+    color: #1e5329;
+    transition: all .3s ease-in;
+}
+
+.card-footer ul li:hover i {
+    transform: scale(0.9);
+    color: #f52f2f;
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+}
